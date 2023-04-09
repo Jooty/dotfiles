@@ -1,0 +1,6 @@
+2023-03-01 01:48:01.983 [info] update#setState idle
+2023-03-01 01:48:02.978 [info] Starting extension host with pid 108514 (fork() took 7 ms).
+2023-03-01 01:48:31.988 [info] update#setState checking for updates
+2023-03-01 01:48:31.995 [info] update#setState idle
+2023-03-01 01:53:28.920 [info] Waiting for extension host with pid 108514 to exit.
+2023-03-01 01:53:28.931 [info] Extension host with pid 108514 exited with code: 0, signal: null.

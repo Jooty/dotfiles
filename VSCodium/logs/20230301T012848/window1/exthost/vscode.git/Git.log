@@ -1,0 +1,37 @@
+2023-03-01 01:28:49.888 [info] Log level: Info
+2023-03-01 01:28:49.888 [info] Validating found git in: "git"
+2023-03-01 01:28:49.888 [info] Using git "2.39.2" from "git"
+2023-03-01 01:29:31.295 [info] Log level: Info
+2023-03-01 01:29:31.295 [info] Validating found git in: "git"
+2023-03-01 01:29:31.295 [info] Using git "2.39.2" from "git"
+2023-03-01 01:29:31.295 [info] > git rev-parse --show-toplevel [3ms]
+2023-03-01 01:29:31.303 [info] > git rev-parse --show-toplevel [4ms]
+2023-03-01 01:29:31.309 [info] > git rev-parse --show-toplevel [1ms]
+2023-03-01 01:29:31.315 [info] > git rev-parse --show-toplevel [2ms]
+2023-03-01 01:29:31.321 [info] > git rev-parse --show-toplevel [1ms]
+2023-03-01 01:29:31.326 [info] > git rev-parse --show-toplevel [1ms]
+2023-03-01 01:29:31.333 [info] > git rev-parse --show-toplevel [2ms]
+2023-03-01 01:29:31.339 [info] > git rev-parse --show-toplevel [2ms]
+2023-03-01 01:29:31.349 [info] > git rev-parse --show-toplevel [5ms]
+2023-03-01 01:29:31.356 [info] > git rev-parse --show-toplevel [2ms]
+2023-03-01 01:29:41.335 [info] > git rev-parse --show-toplevel [2ms]
+2023-03-01 01:29:41.340 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-03-01 01:29:41.346 [info] Open repository: /run/media/jay/5CC8067AC80652A6/Projects/Imlight
+2023-03-01 01:29:41.360 [info] > git config --get commit.template [7ms]
+2023-03-01 01:29:41.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2023-03-01 01:29:41.393 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2023-03-01 01:29:41.400 [info] > git status -z -uall [27ms]
+2023-03-01 01:29:41.413 [info] > git config --get commit.template [4ms]
+2023-03-01 01:29:41.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2023-03-01 01:29:41.469 [info] > git status -z -uall [42ms]
+2023-03-01 01:29:41.470 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+2023-03-01 01:29:41.893 [info] > git check-ignore -v -z --stdin [13ms]
+2023-03-01 01:29:44.377 [info] > git check-ignore -v -z --stdin [10ms]
+2023-03-01 01:29:46.256 [info] > git show --textconv :src/Imlight.Net/Server.cs [4ms]
+2023-03-01 01:29:46.257 [info] > git ls-files --stage -- /run/media/jay/5CC8067AC80652A6/Projects/Imlight/src/Imlight.Net/Server.cs [2ms]
+2023-03-01 01:29:46.270 [info] > git show --textconv :src/Imlight.Net/Server.cs [5ms]
+2023-03-01 01:29:46.272 [info] > git ls-files --stage -- /run/media/jay/5CC8067AC80652A6/Projects/Imlight/src/Imlight.Net/Server.cs [2ms]
+2023-03-01 01:29:55.546 [info] > git config --get commit.template [21ms]
+2023-03-01 01:29:55.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [39ms]
+2023-03-01 01:29:55.605 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2023-03-01 01:29:55.614 [info] > git status -z -uall [27ms]
