@@ -9,8 +9,8 @@ vim.opt.showmode = true
 vim.opt.termguicolors = true
 vim.opt.wrap = true
 lvim.transparent_window = true
---lvim.colorscheme = "base16-tomorrow-night"
-lvim.colorscheme = "falcon"
+lvim.colorscheme = "no-clown-fiesta"
+lvim.builtin.lualine.options.theme = "modus-vivendi"
 
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
@@ -68,9 +68,14 @@ end
 
 -- Additional Plugins
 lvim.plugins = {
-  {"fenetikm/falcon"},
   {"stevearc/aerial.nvim"},
-  {"chriskempson/base16-vim"},
+  {"karb94/neoscroll.nvim"},
+  {"folke/todo-comments.nvim"},
+
+  -- Themes
+  {"rebelot/kanagawa.nvim"},
+  {"savq/melange-nvim"},
+  {"aktersnurra/no-clown-fiesta.nvim"},
 }
 
 -- Plugin Setup
@@ -79,3 +84,6 @@ require('aerial').setup({
     width = 30
   }
 })
+require('neoscroll').setup()
+require("scrollbar").setup()
+require("todo-comments").setup()
