@@ -79,10 +79,10 @@ _G.packer_plugins = {
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["barbar.nvim"] = {
+  ["boo-colorscheme-nvim"] = {
     loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/barbar.nvim",
-    url = "https://github.com/romgrk/barbar.nvim"
+    path = "/home/jay/.local/share/nvim/site/pack/packer/start/boo-colorscheme-nvim",
+    url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
   },
   ["bufferline.nvim"] = {
     loaded = true,
@@ -93,26 +93,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
-  },
-  ["deadcolumn.nvim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/deadcolumn.nvim",
-    url = "https://github.com/Bekaboo/deadcolumn.nvim"
-  },
-  detorte = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/detorte",
-    url = "https://github.com/tamlok/detorte"
-  },
-  ["gitsigns.nvim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
-    url = "https://github.com/lewis6991/gitsigns.nvim"
-  },
-  ["horizon.nvim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/horizon.nvim",
-    url = "https://github.com/LunarVim/horizon.nvim"
   },
   ["hover.nvim"] = {
     loaded = true,
@@ -130,11 +110,6 @@ _G.packer_plugins = {
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
-  ["jellybeans.vim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
-    url = "https://github.com/nanotech/jellybeans.vim"
-  },
   ["kanagawa.nvim"] = {
     loaded = true,
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
@@ -149,11 +124,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
-  ["lush.nvim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/lush.nvim",
-    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -170,30 +140,20 @@ _G.packer_plugins = {
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["mellifluous.nvim"] = {
+  ["neo-tree.nvim"] = {
     loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/mellifluous.nvim",
-    url = "https://github.com/ramojus/mellifluous.nvim"
-  },
-  ["modus-theme-vim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/modus-theme-vim",
-    url = "https://github.com/ishan9299/modus-theme-vim"
-  },
-  ["moonbow.nvim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/moonbow.nvim",
-    url = "https://github.com/arturgoms/moonbow.nvim"
-  },
-  ["moonlight.nvim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
-    url = "https://github.com/shaunsingh/moonlight.nvim"
+    path = "/home/jay/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
   ["neovim-ayu"] = {
     loaded = true,
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/neovim-ayu",
     url = "https://github.com/Shatur/neovim-ayu"
+  },
+  ["no-clown-fiesta.nvim"] = {
+    loaded = true,
+    path = "/home/jay/.local/share/nvim/site/pack/packer/start/no-clown-fiesta.nvim",
+    url = "https://github.com/aktersnurra/no-clown-fiesta.nvim"
   },
   ["noice.nvim"] = {
     loaded = true,
@@ -246,10 +206,10 @@ _G.packer_plugins = {
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
   },
-  ["nvim-tree.lua"] = {
+  ["nvim-scrollview"] = {
     loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/kyazdani42/nvim-tree.lua"
+    path = "/home/jay/.local/share/nvim/site/pack/packer/start/nvim-scrollview",
+    url = "https://github.com/dstein64/nvim-scrollview"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -259,17 +219,12 @@ _G.packer_plugins = {
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
-  },
-  ["paramount-ng.nvim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/paramount-ng.nvim",
-    url = "https://github.com/chrsm/paramount-ng.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
@@ -281,10 +236,10 @@ _G.packer_plugins = {
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
-  ["rasmus.nvim"] = {
+  pywal = {
     loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/rasmus.nvim",
-    url = "https://github.com/kvrohit/rasmus.nvim"
+    path = "/home/jay/.local/share/nvim/site/pack/packer/start/pywal",
+    url = "https://github.com/AlphaTechnolog/pywal.nvim"
   },
   ["sentiment.nvim"] = {
     config = { "\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14sentiment\frequire\0" },
@@ -292,20 +247,10 @@ _G.packer_plugins = {
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/sentiment.nvim",
     url = "https://github.com/utilyre/sentiment.nvim"
   },
-  ["sherbet.nvim"] = {
+  ["symbols-outline.nvim"] = {
     loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/sherbet.nvim",
-    url = "https://github.com/lewpoly/sherbet.nvim"
-  },
-  ["substrata.nvim"] = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/substrata.nvim",
-    url = "https://github.com/kvrohit/substrata.nvim"
-  },
-  tagbar = {
-    loaded = true,
-    path = "/home/jay/.local/share/nvim/site/pack/packer/start/tagbar",
-    url = "https://github.com/preservim/tagbar"
+    path = "/home/jay/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
+    url = "https://github.com/simrat39/symbols-outline.nvim"
   },
   ["telescope-ui-select.nvim"] = {
     loaded = true,
@@ -328,6 +273,16 @@ _G.packer_plugins = {
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/jay/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["trouble.nvim"] = {
+    loaded = true,
+    path = "/home/jay/.local/share/nvim/site/pack/packer/start/trouble.nvim",
+    url = "https://github.com/folke/trouble.nvim"
+  },
   ["vim-illuminate"] = {
     loaded = true,
     path = "/home/jay/.local/share/nvim/site/pack/packer/start/vim-illuminate",
@@ -345,18 +300,18 @@ time([[Defining packer_plugins]], false)
 time([[Config for inc-rename.nvim]], true)
 try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15inc_rename\frequire\0", "config", "inc-rename.nvim")
 time([[Config for inc-rename.nvim]], false)
--- Config for: toggleterm.nvim
-time([[Config for toggleterm.nvim]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
-time([[Config for toggleterm.nvim]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
 -- Config for: sentiment.nvim
 time([[Config for sentiment.nvim]], true)
 try_loadstring("\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14sentiment\frequire\0", "config", "sentiment.nvim")
 time([[Config for sentiment.nvim]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: toggleterm.nvim
+time([[Config for toggleterm.nvim]], true)
+try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\15toggleterm\frequire\0", "config", "toggleterm.nvim")
+time([[Config for toggleterm.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

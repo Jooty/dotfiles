@@ -1,9 +1,10 @@
-vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>', {noremap = true,  silent = true,})
-vim.api.nvim_set_keymap('n', '<leader>a', ':SymbolsOutline<CR>', {noremap = true,  silent = true,})
+vim.api.nvim_set_keymap('n', '<leader>e', ':Neotree filesystem reveal left toggle<CR>', {noremap = true,  silent = true,})
+vim.api.nvim_set_keymap('n', '<leader>o', ':SymbolsOutline<CR>', {noremap = true,  silent = true,})
 vim.api.nvim_set_keymap('n', '<leader>sp', ':Telescope colorscheme<CR>', {noremap = true,silent = true,})
 vim.api.nvim_set_keymap('n', '<leader>r', ':luafile ~/.config/nvim/lua/init.lua<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>t', ':TodoTelescope<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>b', "<Cmd>lua require'dap'.toggle_breakpoint()<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>f', ':TroubleToggle<CR>', { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap('n', '<C-s>', '<Esc>:w<CR>', { noremap = true })
 vim.api.nvim_set_keymap('n', '<C-r>', ':IncRename ', {expr = true})

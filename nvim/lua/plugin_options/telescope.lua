@@ -1,5 +1,10 @@
 require('telescope').setup {
   defaults = {
+    previewer = true,
+    preview_cutoff = 1,
+    file_previewer = require'telescope.previewers'.vim_buffer_cat.new,
+    grep_previewer = require'telescope.previewers'.vim_buffer_vimgrep.new,
+    qflist_previewer = require'telescope.previewers'.vim_buffer_qflist.new,
     prompt_prefix = ' > ',
     selection_caret = ' ',
     layout_strategy = 'vertical',
@@ -20,8 +25,12 @@ require('telescope').setup {
       "bin", -- CSharp build directory
       "obj", -- CSharp build directory
     },
+    pickers = {
+      colorscheme = {
+        enable_preview = true
+      }
+    }
   },
 }
 
 require("telescope").load_extension("ui-select")
-require("telescope").setup{ pickers = { colorscheme = { enable_preview = true } } }

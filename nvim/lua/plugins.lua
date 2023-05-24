@@ -13,29 +13,37 @@ packer.startup(function()
   use 'wbthomason/packer.nvim'
 
   -- Plugins
-  use 'kyazdani42/nvim-tree.lua'                -- File explorer
-  use 'kyazdani42/nvim-web-devicons'            -- Icons
   use 'nvim-treesitter/nvim-treesitter'         -- Syntax highlighting engine
-  use 'nvim-lua/popup.nvim'                     -- Dependency for telescope.nvim
-  use 'nvim-lua/plenary.nvim'                   -- Dependency for telescope.nvim
-  use 'nvim-telescope/telescope.nvim'           -- Fuzzy finder
   use 'lukas-reineke/indent-blankline.nvim'     -- Indentation guides
   use 'folke/todo-comments.nvim'                -- @TODO comments & others
   use 'NvChad/nvim-colorizer.lua'               -- See hex colors in editor
-  use 'Bekaboo/deadcolumn.nvim'                 -- See character edge column
-  use 'nvim-telescope/telescope-ui-select.nvim' -- Replaces UI selection with telescope
   use 'mhinz/vim-startify'                      -- Dashboard
-  use 'RRethy/vim-illuminate'                   -- Highlight word under cursor
   use 'simrat39/symbols-outline.nvim'           -- Code outline
+  use 'folke/trouble.nvim'                      -- Diagnostics viewer
+  use 'dstein64/nvim-scrollview'                -- Scrollbar
+  use 'RRethy/vim-illuminate'                   -- Highlight token under cursor
+
+  use 'nvim-lua/popup.nvim'                     -- Dependency for telescope.nvim
+  use 'nvim-lua/plenary.nvim'                   -- Dependency for telescope.nvim
+  use 'nvim-telescope/telescope.nvim'           -- Fuzzy finder
+  use 'nvim-telescope/telescope-ui-select.nvim' -- Replaces UI selection with telescope
+
+  -- File explorer
+  use {
+  "nvim-neo-tree/neo-tree.nvim",
+    branch = "v2.x",
+    requires = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+    }
+  }
 
   -- Status bar
   use 'nvim-lualine/lualine.nvim'
 
   -- Buffer bar
-  use {'romgrk/barbar.nvim', requires = {
-    'lewis6991/gitsigns.nvim',     -- OPTIONAL: for git status
-    'nvim-tree/nvim-web-devicons', -- OPTIONAL: for file icons
-  }}
+  use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
 
   -- UI Overhaul
   use({
@@ -45,9 +53,6 @@ packer.startup(function()
       "rcarriga/nvim-notify",
     }
   })
-
-  -- Buffer line
-  use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
 
   -- LSP, DAPs, linters, formatters.
   use {
@@ -99,25 +104,12 @@ packer.startup(function()
   })
 
   -- Themes
-  use 'nanotech/jellybeans.vim'
-  use 'rebelot/kanagawa.nvim'
+  use 'rockerBOO/boo-colorscheme-nvim'
   use 'Shatur/neovim-ayu'
-  use 'tamlok/detorte'
+  use 'aktersnurra/no-clown-fiesta.nvim'
   use 'catppuccin/nvim'
-  use 'LunarVim/horizon.nvim'
-  use 'kvrohit/substrata.nvim'
-  use {
-    "chrsm/paramount-ng.nvim",
-    requires = { "rktjmp/lush.nvim" }
-  }
-  use 'kvrohit/rasmus.nvim'
-  use({
-    'ramojus/mellifluous.nvim',
-    requires = { 'rktjmp/lush.nvim' },
-  })
-  use "lewpoly/sherbet.nvim"
-  use 'shaunsingh/moonlight.nvim'
-  use 'arturgoms/moonbow.nvim'
-  use 'ishan9299/modus-theme-vim'
+  use 'folke/tokyonight.nvim'
+  use 'rebelot/kanagawa.nvim'
+  use { 'AlphaTechnolog/pywal.nvim', as = 'pywal' }
 
 end)

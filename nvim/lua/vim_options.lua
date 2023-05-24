@@ -9,6 +9,7 @@ vim.opt.undodir = vim.fn.expand('~/.vim/undodir')
 vim.o.undofile = true
 vim.o.completeopt = "menuone,noselect"
 vim.opt.swapfile = falseha
+vim.wo.fillchars='eob: '
 
 vim.bo.tabstop = 4
 vim.bo.softtabstop = 4
