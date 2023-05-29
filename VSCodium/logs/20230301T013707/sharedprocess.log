@@ -1,7 +1,0 @@
-2023-03-01 01:37:09.031 [info] Starting worker process with pid 106300 (type: fileWatcher, window: 1).
-2023-03-01 01:39:12.940 [info] Getting Manifest... catppuccin.catppuccin-vsc
-2023-03-01 01:39:13.130 [info] Installing extension: catppuccin.catppuccin-vsc
-2023-03-01 01:39:49.812 [info] Extracted extension to /home/jay/.vscode-oss/extensions/.c7f3e3a9-21ad-497c-b14e-d0223a070201: catppuccin.catppuccin-vsc
-2023-03-01 01:39:49.815 [info] Renamed to /home/jay/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.6.1-universal
-2023-03-01 01:39:49.816 [info] Extracting completed. catppuccin.catppuccin-vsc
-2023-03-01 01:39:49.823 [info] Extension installed successfully: catppuccin.catppuccin-vsc

@@ -1,6 +1,0 @@
-2023-03-01 20:09:34.429 [info] update#setState idle
-2023-03-01 20:09:35.474 [info] Starting extension host with pid 25937 (fork() took 8 ms).
-2023-03-01 20:10:04.443 [info] update#setState checking for updates
-2023-03-01 20:10:04.449 [info] update#setState idle
-2023-03-01 20:10:14.632 [info] Waiting for extension host with pid 25937 to exit.
-2023-03-01 20:10:14.638 [info] Extension host with pid 25937 exited with code: 0, signal: null.
